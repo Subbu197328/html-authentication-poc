@@ -1,66 +1,90 @@
 # HTML Authentication System POC
 
-##  Project Description
-This project is a simple HTML-based Authentication System Proof of Concept (POC).
+This project is a responsive Authentication System UI built using HTML, Bootstrap 5, and custom CSS.
 
-It consists of 5 HTML pages demonstrating basic authentication flow using only HTML structure and page redirections.
+It demonstrates a complete authentication flow with modern UI design, including:
+Login Page
+Registration Page
+Forgot Password Page
+Reset Password Page
+Dashboard
 
- No CSS, JavaScript, or backend technologies are used.
-The purpose of this project is to focus purely on HTML structure and navigation.
-
+The focus of this project is on frontend design, responsiveness, and clean user interface (UI/UX).
 ---
 
 ## Project Structure
 
-The project contains the following 5 HTML pages:
+The project contains the following files:
 
-1. login.html  
-2. register.html  
-3. forgot-password.html  
-4. reset-password.html  
-5. dashboard.html  
+/project-folder
+│
+├── index.html
+├── register.html
+├── forgot-password.html
+├── reset-password.html
+├── dashboard.html
+├── styles.css
+├── README.md
+└── screenshots/
 
 ---
 
 ## Page Description
 
-### 1 login.html
-- Contains email and password fields
-- Redirects to dashboard.html after login
-- Links to:
-  - Register page
-  - Forgot password page
+🔐 1. Login Page (index.html)
+
+-Email and Password fields
+-Animated input boxes
+-Login button
+-Links to:
+-Create Account
+-Forgot Password
+-Redirects to dashboard.html
 
 ### 2️ register.html
-- Contains user registration form
-- Redirects to login.html after registration
+
+-Full Name
+-Email
+-Password
+-Confirm Password
+-Styled input fields with icons
+-Redirects to index.html
 
 ### 3️ forgot-password.html
-- Accepts registered email
-- Redirects to reset-password.html
+
+-Email input field
+-Sends reset link (UI simulation)
+-Redirects to reset-password.html
 
 ### 4️ reset-password.html
-- Allows user to enter new password
-- Redirects back to login.html
+
+-New password input
+-Show/Hide password feature
+-Redirects back to login page
 
 ### 5️ dashboard.html
-- Displays successful login message
-- Contains logout link to login.html
+
+-Bootstrap Navbar
+-Welcome message
+-Logout button (redirects to login page)
 
 ---
 
 ## Technologies Used
-- HTML5
-- Form tag with action attribute
-- Anchor tag navigation
+
+-HTML5
+-CSS3
+-Bootstrap 5
+-Bootstrap Icons
+-Google Fonts
 
 ---
 
 ## How to Run the Project
 
-1. Download or clone this repository.
-2. Open `login.html` in any web browser.
-3. Use the forms and links to navigate between pages.
+1.Download or clone this repository
+2.Open index.html in any web browser
+3.Use the forms and links to navigate between pages
 
 ---
 
@@ -70,16 +94,21 @@ This project is submitted as a **Public GitHub Repository** as per assignment in
 ---
 
 ## Features
-- Structured HTML forms
-- Page-to-page navigation
-- Authentication flow simulation
-- Pure HTML implementation (No CSS / No JavaScript)
-
----
-Note: This project uses only HTML (No CSS or JavaScript).
-
+-Bootstrap 5 integration (CDN)
+-Custom CSS styling (styles.css)
+-Animated gradient background
+-Glassmorphism card design
+-Inner layered form (box structure)
+-Animated input fields (focus glow effect)
+-Responsive design:
+  Desktop
+  Laptop
+  Tablet
+  Mobile
+-Clean and professional UI
+-Page navigation using forms and links
 
 ## Author
-Name: C G Balasubramanyam Singh  
-Course: B.E. Information Science and Engineering  
-Assignment: Fullstack Java – HTML Authentication System POC  
+Name: C G Balasubramanyam Singh
+Course: B.E. Information Science and Engineering
+Assignment: Fullstack Java – Authentication System UI
