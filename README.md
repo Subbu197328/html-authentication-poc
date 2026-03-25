@@ -68,6 +68,16 @@ The project contains the following files:
 -Welcome message
 -Logout button (redirects to login page)
 
+### Screenshots 
+1. Register
+   <img width="1920" height="1080" alt="Screenshot (13)" src="https://github.com/user-attachments/assets/4ad24afd-5163-4209-8981-a5e6f59c697b" />
+2. Login
+   <img width="1920" height="1080" alt="Screenshot (14)" src="https://github.com/user-attachments/assets/ae6e5fd7-db51-441c-944d-a9e4f4123742" />
+3. Forget Password
+   <img width="1920" height="1080" alt="Screenshot (15)" src="https://github.com/user-attachments/assets/6f9ad108-b75c-4571-b3af-64c0eddbb3cd" />
+4. Dashboard
+   <img width="1920" height="1080" alt="Screenshot (16)" src="https://github.com/user-attachments/assets/7711e567-f536-4ab1-9a99-0f9eff1f0cd8" />
+
 ---
 
 ## Technologies Used
